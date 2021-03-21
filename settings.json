@@ -1,0 +1,683 @@
+{
+  "whichkey.bindings": [
+    {
+      "key": "g",
+      "name": "Git",
+      "type": "bindings",
+      "bindings": [
+        {
+          "key": "a",
+          "name": "Selected Range",
+          "type": "bindings",
+          "bindings": [
+            {
+              "key": "s",
+              "name": "Stage Selected Ranges",
+              "type": "command",
+              "command": "git.stageSelectedRanges"
+            },
+            {
+              "key": "u",
+              "name": "Unstage Selected Ranges",
+              "type": "command",
+              "command": "git.unstageSelectedRanges"
+            },
+            {
+              "key": "r",
+              "name": "Revert Selected Ranges",
+              "type": "command",
+              "command": "git.revertSelectedRanges"
+            }
+          ]
+        },
+        {
+          "key": "r",
+          "name": "Remote",
+          "type": "bindings",
+          "bindings": [
+            {
+              "key": "a",
+              "name": "Add Remote",
+              "type": "command",
+              "command": "git.addRemote"
+            },
+            {
+              "key": "d",
+              "name": "Remove Remote",
+              "type": "command",
+              "command": "git.removeRemote"
+            },
+            {
+              "key": "s",
+              "name": "Sync",
+              "type": "command",
+              "command": "git.sync"
+            },
+            {
+              "key": "r",
+              "name": "Sync (Rebase)",
+              "type": "command",
+              "command": "git.syncRebase"
+            }
+          ]
+        },
+        {
+          "key": "b",
+          "name": "Branch",
+          "type": "bindings",
+          "bindings": [
+            {
+              "key": "c",
+              "name": "Create Branch",
+              "type": "command",
+              "command": "git.branch"
+            },
+            {
+              "key": "f",
+              "name": "Create Branch From",
+              "type": "command",
+              "command": "git.branchFrom"
+            },
+            {
+              "key": "d",
+              "name": "Delete Branch",
+              "type": "command",
+              "command": "git.deleteBranch"
+            },
+            {
+              "key": "m",
+              "name": "Merge Branch",
+              "type": "command",
+              "command": "git.merge"
+            },
+            {
+              "key": "p",
+              "name": "Publish Branch",
+              "type": "command",
+              "command": "git.publish"
+            },
+            {
+              "key": "r",
+              "name": "Rename Branch",
+              "type": "command",
+              "command": "git.renameBranch"
+            },
+            {
+              "key": "t",
+              "name": "Checkout to",
+              "type": "command",
+              "command": "git.checkout"
+            },
+            {
+              "key": "h",
+              "name": "Checkout to (Detached)",
+              "type": "command",
+              "command": "git.checkoutDetached"
+            },
+            {
+              "key": "y",
+              "name": "Cherry Pick",
+              "type": "command",
+              "command": "git.cherryPick"
+            }
+          ]
+        },
+        {
+          "key": "d",
+          "name": "Changes",
+          "type": "bindings",
+          "bindings": [
+            {
+              "key": "c",
+              "name": "Discard Changes",
+              "type": "command",
+              "command": "git.clean"
+            },
+            {
+              "key": "a",
+              "name": "Discard All Changes",
+              "type": "command",
+              "command": "git.cleanAll"
+            },
+            {
+              "key": "t",
+              "name": "Discard All Tracked Changes",
+              "type": "command",
+              "command": "git.cleanAllTracked"
+            },
+            {
+              "key": "u",
+              "name": "Discard All Untracked Changes",
+              "type": "command",
+              "command": "git.cleanAllUntracked"
+            }
+          ]
+        },
+        {
+          "key": "r",
+          "name": "Repository",
+          "type": "bindings",
+          "bindings": [
+            {
+              "key": "i",
+              "name": "Initialize Repository",
+              "type": "command",
+              "command": "git.init"
+            },
+            {
+              "key": "o",
+              "name": "Open Repository",
+              "type": "command",
+              "command": "git.openRepository"
+            },
+            {
+              "key": "a",
+              "name": "Add to .gitignore",
+              "type": "command",
+              "command": "git.ignore"
+            },
+            {
+              "key": "c",
+              "name": "Clone",
+              "type": "command",
+              "command": "git.clone"
+            },
+            {
+              "key": "r",
+              "name": "Clone (Recursive)",
+              "type": "command",
+              "command": "git.cloneRecursive"
+            },
+            {
+              "key": "d",
+              "name": "Close Repository",
+              "type": "command",
+              "command": "git.close"
+            }
+          ]
+        },
+        {
+          "key": "c",
+          "name": "Commit",
+          "type": "bindings",
+          "bindings": [
+            {
+              "key": "c",
+              "name": "Commit",
+              "type": "command",
+              "command": "git.commit"
+            },
+            {
+              "key": "a",
+              "name": "Commit All",
+              "type": "command",
+              "command": "git.commitAll"
+            },
+            {
+              "key": "u",
+              "name": "Undo Last Commit",
+              "type": "command",
+              "command": "git.undoCommit"
+            },
+            {
+              "key": "l",
+              "name": "Commit All (Amend)",
+              "type": "command",
+              "command": "git.commitAllAmend"
+            },
+            {
+              "key": "y",
+              "name": "Commit All (Amend, No Verify)",
+              "type": "command",
+              "command": "git.commitAllAmendNoVerify"
+            },
+            {
+              "key": "n",
+              "name": "Commit All (No Verify)",
+              "type": "command",
+              "command": "git.commitAllNoVerify"
+            },
+            {
+              "key": "s",
+              "name": "Commit All (Signed Off)",
+              "type": "command",
+              "command": "git.commitAllSigned"
+            },
+            {
+              "key": "f",
+              "name": "Commit All (Signed Off, No Verify)",
+              "type": "command",
+              "command": "git.commitAllSignedNoVerify"
+            },
+            {
+              "key": "e",
+              "name": "Commit Empty",
+              "type": "command",
+              "command": "git.commitEmpty"
+            },
+            {
+              "key": "v",
+              "name": "Commit Empty (No Verify)",
+              "type": "command",
+              "command": "git.commitEmptyNoVerify"
+            },
+            {
+              "key": "i",
+              "name": "Commit (No Verify)",
+              "type": "command",
+              "command": "git.commitNoVerify"
+            }
+          ]
+        },
+        {
+          "key": "w",
+          "name": "Commit Staged",
+          "type": "bindings",
+          "bindings": [
+            {
+              "key": "s",
+              "name": "Commit Staged",
+              "type": "command",
+              "command": "git.commitStaged"
+            },
+            {
+              "key": "a",
+              "name": "Commit Staged (Amend)",
+              "type": "command",
+              "command": "git.commitStagedAmend"
+            },
+            {
+              "key": "v",
+              "name": "Commit Staged (Amend, No Verify)",
+              "type": "command",
+              "command": "git.commitStagedAmendNoVerify"
+            },
+            {
+              "key": "n",
+              "name": "Commit Staged (No Verify)",
+              "type": "command",
+              "command": "git.commitStagedNoVerify"
+            },
+            {
+              "key": "o",
+              "name": "Commit Staged (Signed Off)",
+              "type": "command",
+              "command": "git.commitStagedSigned"
+            },
+            {
+              "key": "f",
+              "name": "Commit Staged (Signed Off, No Verify)",
+              "type": "command",
+              "command": "git.commitStagedSignedNoVerify"
+            }
+          ]
+        },
+        {
+          "key": "t",
+          "name": "Tag",
+          "type": "bindings",
+          "bindings": [
+            {
+              "key": "c",
+              "name": "Create Tag",
+              "type": "command",
+              "command": "git.createTag"
+            },
+            {
+              "key": "d",
+              "name": "Delete Tag",
+              "type": "command",
+              "command": "git.deleteTag"
+            },
+            {
+              "key": "p",
+              "name": "Push Tags",
+              "type": "command",
+              "command": "git.pushTags"
+            }
+          ]
+        },
+        {
+          "key": "f",
+          "name": "Fetch",
+          "type": "bindings",
+          "bindings": [
+            {
+              "key": "f",
+              "name": "Fetch",
+              "type": "command",
+              "command": "git.fetch"
+            },
+            {
+              "key": "a",
+              "name": "Fetch From All Remotes",
+              "type": "command",
+              "command": "git.fetchAll"
+            },
+            {
+              "key": "p",
+              "name": "Fetch (Prune)",
+              "type": "command",
+              "command": "git.fetchPrune"
+            }
+          ]
+        },
+        {
+          "key": "o",
+          "name": "Open",
+          "type": "bindings",
+          "bindings": [
+            {
+              "key": "a",
+              "name": "Open All Changes",
+              "type": "command",
+              "command": "git.openAllChanges"
+            },
+            {
+              "key": "c",
+              "name": "Open Changes",
+              "type": "command",
+              "command": "git.openChange"
+            },
+            {
+              "key": "f",
+              "name": "Open File",
+              "type": "command",
+              "command": "git.openFile"
+            },
+            {
+              "key": "g",
+              "name": "Open File 2",
+              "type": "command",
+              "command": "git.openFile2"
+            },
+            {
+              "key": "h",
+              "name": "Open File (HEAD)",
+              "type": "command",
+              "command": "git.openHEADFile"
+            }
+          ]
+        },
+
+        {
+          "key": "l",
+          "name": "Pull",
+          "type": "bindings",
+          "bindings": [
+            {
+              "key": "p",
+              "name": "Pull",
+              "type": "command",
+              "command": "git.pull"
+            },
+            {
+              "key": "f",
+              "name": "Pull from",
+              "type": "command",
+              "command": "git.pullFrom"
+            },
+            {
+              "key": "r",
+              "name": "Pull (Rebase)",
+              "type": "command",
+              "command": "git.pullRebase"
+            }
+          ]
+        },
+        {
+          "key": "p",
+          "name": "Push",
+          "type": "bindings",
+          "bindings": [
+            {
+              "key": "a",
+              "name": "Push",
+              "type": "command",
+              "command": "git.push"
+            },
+            {
+              "key": "f",
+              "name": "Push (Force)",
+              "type": "command",
+              "command": "git.pushForce"
+            },
+            {
+              "key": "t",
+              "name": "Push to",
+              "type": "command",
+              "command": "git.pushTo"
+            },
+            {
+              "key": "j",
+              "name": "Push to (Force)",
+              "type": "command",
+              "command": "git.pushToForce"
+            },
+            {
+              "key": "k",
+              "name": "Push (Follow Tags)",
+              "type": "command",
+              "command": "git.pushWithTags"
+            },
+            {
+              "key": "l",
+              "name": "Push (Follow Tags, Force)",
+              "type": "command",
+              "command": "git.pushWithTagsForce"
+            }
+          ]
+        },
+        {
+          "key": "h",
+          "name": "Options",
+          "type": "bindings",
+          "bindings": [
+            {
+              "key": "b",
+              "name": "Rebase Branch",
+              "type": "command",
+              "command": "git.rebase"
+            },
+            {
+              "key": "a",
+              "name": "Abort Rebase",
+              "type": "command",
+              "command": "git.rebaseAbort"
+            },
+            {
+              "key": "f",
+              "name": "Refresh",
+              "type": "command",
+              "command": "git.refresh"
+            },
+            {
+              "key": "r",
+              "name": "Rename",
+              "type": "command",
+              "command": "git.rename"
+            },
+            {
+              "key": "t",
+              "name": "Restore Commit Template",
+              "type": "command",
+              "command": "git.restoreCommitTemplate"
+            },
+            {
+              "key": "s",
+              "name": "Reveal in Side Bar",
+              "type": "command",
+              "command": "git.revealInExplorer"
+            },
+            {
+              "key": "j",
+              "name": "Revert Change",
+              "type": "command",
+              "command": "git.revertChange"
+            },
+            {
+              "key": "k",
+              "name": "Set Log Level",
+              "type": "command",
+              "command": "git.setLogLevel"
+            },
+            {
+              "key": "l",
+              "name": "Show Git Output",
+              "type": "command",
+              "command": "git.showOutput"
+            }
+          ]
+        },
+        {
+          "key": "s",
+          "name": "Stages",
+          "type": "bindings",
+          "bindings": [
+            {
+              "key": "c",
+              "name": "Stage Changes",
+              "type": "command",
+              "command": "git.stage"
+            },
+            {
+              "key": "a",
+              "name": "Stage All Changes",
+              "type": "command",
+              "command": "git.stageAll"
+            },
+            {
+              "key": "m",
+              "name": "Stage All Merge Changes",
+              "type": "command",
+              "command": "git.stageAllMerge"
+            },
+            {
+              "key": "t",
+              "name": "Stage All Tracked Changes",
+              "type": "command",
+              "command": "git.stageAllTracked"
+            },
+            {
+              "key": "u",
+              "name": "Stage All Untracked Changes",
+              "type": "command",
+              "command": "git.stageAllUntracked"
+            },
+            {
+              "key": "j",
+              "name": "Stage Change",
+              "type": "command",
+              "command": "git.stageChange"
+            }
+          ]
+        },
+        {
+          "key": "e",
+          "name": "Stash",
+          "type": "bindings",
+          "bindings": [
+            {
+              "key": "s",
+              "name": "Stash",
+              "type": "command",
+              "command": "git.stash"
+            },
+            {
+              "key": "a",
+              "name": "Apply Stash",
+              "type": "command",
+              "command": "git.stashApply"
+            },
+            {
+              "key": "l",
+              "name": "Apply Latest Stash",
+              "type": "command",
+              "command": "git.stashApplyLatest"
+            },
+            {
+              "key": "d",
+              "name": "Drop Stash",
+              "type": "command",
+              "command": "git.stashDrop"
+            },
+            {
+              "key": "u",
+              "name": "Stash (Include Untracked)",
+              "type": "command",
+              "command": "git.stashIncludeUntracked"
+            },
+            {
+              "key": "r",
+              "name": "Pop Stash",
+              "type": "command",
+              "command": "git.stashPop"
+            },
+            {
+              "key": "p",
+              "name": "Pop Latest Stash",
+              "type": "command",
+              "command": "git.stashPopLatest"
+            }
+          ]
+        },
+        {
+          "key": "y",
+          "name": "Timeline",
+          "type": "bindings",
+          "bindings": [
+            {
+              "key": "s",
+              "name": "Compare with Selected",
+              "type": "command",
+              "command": "git.timeline.compareWithSelected"
+            },
+            {
+              "key": "i",
+              "name": "Copy Commit ID",
+              "type": "command",
+              "command": "git.timeline.copyCommitId"
+            },
+            {
+              "key": "m",
+              "name": "Copy Commit Message",
+              "type": "command",
+              "command": "git.timeline.copyCommitMessage"
+            },
+            {
+              "key": "o",
+              "name": "Open Changes",
+              "type": "command",
+              "command": "git.timeline.openDiff"
+            },
+            {
+              "key": "c",
+              "name": "Select for Compare",
+              "type": "command",
+              "command": "git.timeline.selectForCompare"
+            }
+          ]
+        },
+        {
+          "key": "u",
+          "name": "Unstage",
+          "type": "bindings",
+          "bindings": [
+            {
+              "key": "c",
+              "name": "Unstage Changes",
+              "type": "command",
+              "command": "git.unstage"
+            },
+            {
+              "key": "a",
+              "name": "Unstage All Changes",
+              "type": "command",
+              "command": "git.unstageAll"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
