@@ -990,13 +990,13 @@
               "command": "debug.enableOrDisableBreakpoint"
             },
             {
-              "key": "al",
+              "key": "w",
               "name": "Add Logpoint",
               "type": "command",
               "command": "editor.debug.action.addLogPoint"
             },
             {
-              "key": "ac",
+              "key": "s",
               "name": "Add Conditional Breakpoint",
               "type": "command",
               "command": "editor.debug.action.conditionalBreakpoint"
@@ -1014,31 +1014,31 @@
               "command": "editor.debug.action.goToPreviousBreakpoint"
             },
             {
-              "key": "af",
+              "key": "k",
               "name": "Add Function Breakpoint",
               "type": "command",
               "command": "workbench.debug.viewlet.action.addFunctionBreakpointAction"
             },
             {
-              "key": "da",
+              "key": "l",
               "name": "Disable All Breackpoints",
               "type": "command",
               "command": "workbench.debug.viewlet.action.disablAllBreakpoints"
             },
             {
-              "key": "ea",
+              "key": "g",
               "name": "Enable All Breackpoints",
               "type": "command",
               "command": "workbench.debug.viewlet.action.enableAllBreakpoints"
             },
             {
-              "key": "ra",
+              "key": "g",
               "name": "Reapply All Breackpoints",
               "type": "command",
               "command": "workbench.debug.viewlet.action.reapplBreakpointsAction"
             },
             {
-              "key": "ra",
+              "key": "x",
               "name": "Remove All Breakpoints",
               "type": "command",
               "command": "workbench.debug.viewlet.action.removeAllBreakpoints"
@@ -1518,7 +1518,7 @@
           "name": "Run Test Task",
           "type": "command",
           "command": "workbench.action.tasks.test"
-        }
+        },
       ]
     }
   ]
