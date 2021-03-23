@@ -1421,6 +1421,105 @@
           ]
         }
       ]
+    },
+    // Tasks
+    {
+      "key": "t",
+      "name": "Tasks",
+      "type": "bindings",
+      "bindings": [
+        {
+          "key": "b",
+          "name": "Run Build Task",
+          "type": "command",
+          "command": "workbench.action.tasks.build"
+        },
+        {
+          "key": "c",
+          "name": "Configure Tasks",
+          "type": "bindings",
+          "bindings": [
+            {
+              "key": "t",
+              "name": "Configure Task",
+              "type": "command",
+              "command": "workbench.action.tasks.configureTaskRunner"
+            },
+            {
+              "key": "b",
+              "name": "Configure Default Build Task",
+              "type": "command",
+              "command": "workbench.action.tasks.configureDefaultBuildTask"
+            },
+            {
+              "key": "t",
+              "name": "Configure Default Test Task",
+              "type": "command",
+              "command": "workbench.action.tasks.configureDefaultTestTask"
+            }
+          ]
+        },
+        {
+          "key": "m",
+          "name": "Manage Automatic Tasks in Folder",
+          "type": "command",
+          "command": "workbench.action.tasks.manageAutomaticRunning"
+        },
+        {
+          "key": "u",
+          "name": "Open User Tasks",
+          "type": "command",
+          "command": "workbench.action.tasks.openUserTasks"
+        },
+        {
+          "key": "w",
+          "name": "Open Workspace Tasks",
+          "type": "command",
+          "command": "workbench.action.tasks.openWorkspaceFileTasks"
+        },
+        {
+          "key": "l",
+          "name": "Rerun Last Task",
+          "type": "command",
+          "command": "workbench.action.tasks.reRunTask"
+        },
+        {
+          "key": "r",
+          "name": "Restart Running Task",
+          "type": "command",
+          "command": "workbench.action.tasks.restartTask"
+        },
+        {
+          "key": "t",
+          "name": "Run Task",
+          "type": "command",
+          "command": "workbench.action.tasks.runTask"
+        },
+        {
+          "key": "i",
+          "name": "Show Task Log",
+          "type": "command",
+          "command": "workbench.action.tasks.showLog"
+        },
+        {
+          "key": "k",
+          "name": "Show Running Tasks",
+          "type": "command",
+          "command": "workbench.action.tasks.showTasks"
+        },
+        {
+          "key": "d",
+          "name": "Terminate Task",
+          "type": "command",
+          "command": "workbench.action.tasks.terminate"
+        },
+        {
+          "key": "j",
+          "name": "Run Test Task",
+          "type": "command",
+          "command": "workbench.action.tasks.test"
+        }
+      ]
     }
   ]
 }
